@@ -6,9 +6,6 @@ A **Logistic Regression-based model** to classify news articles as **fake** or *
 1. **Load Data**: Combine `Fake.csv` (labeled as `1`) and `True.csv` (labeled as `0`).
 2. **EDA**:
    - Analyze label distribution and word count.
-   - Example visualizations:
-     - ![Fake News Example](images/fake_example.png)
-     - ![Real News Example](images/real_example.png)
 3. **Preprocessing**:
    - Clean text (remove punctuation, URLs, lowercase).
 4. **TF-IDF Vectorization**:
@@ -20,18 +17,23 @@ A **Logistic Regression-based model** to classify news articles as **fake** or *
 
 ## How to Run:
 1. Clone the repository:
-
+```
    git clone <repository_url>
    cd <repository_folder>
-
+```
 2. Install dependencies:
-    
+```
     pip install -r requirements.txt
-
+```
 3. Run the traing:
-
+```
     python fpython news_training.py
-
+```
 4. Run the app:
-
+```
     python main.py
+```
+
+   - Example:
+     - ![Fake News Example](images/fake_example.png)
+     - ![Real News Example](images/real_example.png)
